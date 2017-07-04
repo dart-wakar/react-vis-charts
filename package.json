@@ -2,10 +2,7 @@
   "name": "react-vis-tutorial",
   "version": "1.0.0",
   "description": "A sample app to learn working with react-vis library",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "app.js",
   "keywords": [
     "react",
     "react-vis"
@@ -36,5 +33,16 @@
       "stage-2",
       "react"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dart-wakar/react-vis-charts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dart-wakar/react-vis-charts/issues"
+  },
+  "homepage": "https://github.com/dart-wakar/react-vis-charts#readme",
+  "scripts": {
+    "start": "webpack-dev-server --progress --hot --port 3001 --open"
   }
 }
